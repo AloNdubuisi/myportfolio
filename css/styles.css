@@ -583,8 +583,6 @@ div.logo{
     .navigation{
         position: relative;
         top: 18rem;
-        height: auto;
-        margin: 0 0 0 10rem;
     }
 }
 @media (max-width:320px){
@@ -594,9 +592,6 @@ div.logo{
     .main{
         display: block;
         margin: auto;
-        padding-bottom: 0;
-        margin-bottom: 0;
-        overflow-x: hidden;
     }
 
     span.welcome-title{
@@ -613,7 +608,5 @@ div.logo{
     .navigation{
         position: relative;
         top: 18rem;
-        height: auto;
-        margin: 0 0 0 13rem;
     }
 }
