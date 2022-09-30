@@ -540,12 +540,19 @@ div.logo{
 
 /* ==== MEDIA QUERRIES ==== */
 @media (max-width:1000px){
+    body{
+        overflow-x: hidden;
+    }
     .about-container{
         margin: 10px;
         grid-template-columns: repeat(1, 1fr);
     }
+    .profile-img img{
+        margin: auto;
+    }
     .main{
         display: block;
+        padding-bottom: 5rem;
     }
     .welcome-caption{
         display: none;
@@ -560,16 +567,37 @@ div.logo{
         position: relative;
         top: 18rem;
         height: auto;
-        margin: 0 0 0 10rem;
+        margin: auto;
     }
 }
 @media (max-width:600px){
+    body{
+        overflow-x: hidden;
+    }
+    .about-section .box{
+        flex-direction: column;
+    }
+    .about-section .box .company-year{
+        margin-bottom: 5px;
+    }
+    .text-title p{
+        font-size: 2rem;
+    }
+    .profile-img img{
+        margin: auto;
+    }
+    .buttons > a.arrow{
+        display: block;
+        margin: 2.5rem auto;
+        width: 100px;
+    }
     .cursor, .cursor2{
         display: none;
     }
     .main{
         display: block;
         margin: auto;
+        padding-bottom: 5rem;
     }
     .welcome-caption{
         display: none;
@@ -582,16 +610,20 @@ div.logo{
     }
     .navigation{
         position: relative;
-        top: 18rem;
+        top: 16rem;
+        height: auto;
     }
 }
-@media (max-width:320px){
+/* @media (max-width:320px){
     .welcome-caption, .cursor, .cursor2, .buttons{
         display: none;
     }
     .main{
         display: block;
         margin: auto;
+        padding-bottom: 0;
+        margin-bottom: 0;
+        overflow-x: hidden;
     }
 
     span.welcome-title{
@@ -607,6 +639,7 @@ div.logo{
     }
     .navigation{
         position: relative;
-        top: 18rem;
+        top: 10rem;
+        height: auto;
     }
-}
+} */
