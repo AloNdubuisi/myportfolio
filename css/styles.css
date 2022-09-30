@@ -540,9 +540,6 @@ div.logo{
 
 /* ==== MEDIA QUERRIES ==== */
 @media (max-width:1000px){
-    body{
-        /* background-color: red; */
-    }
     .about-container{
         margin: 10px;
         grid-template-columns: repeat(1, 1fr);
@@ -563,7 +560,7 @@ div.logo{
         position: relative;
         top: 18rem;
         height: auto;
-        margin: auto;
+        margin: 0 0 0 10rem;
     }
 }
 @media (max-width:600px){
@@ -587,7 +584,7 @@ div.logo{
         position: relative;
         top: 18rem;
         height: auto;
-        margin: 0 0 0 3.25rem;
+        margin: 0 0 0 10rem;
     }
 }
 @media (max-width:320px){
@@ -599,7 +596,7 @@ div.logo{
         margin: auto;
         padding-bottom: 0;
         margin-bottom: 0;
-        overflow: hidden;
+        overflow-x: hidden;
     }
 
     span.welcome-title{
@@ -615,8 +612,8 @@ div.logo{
     }
     .navigation{
         position: relative;
-        top: 10rem;
+        top: 18rem;
         height: auto;
-        justify-content: center;
+        margin: 0 0 0 13rem;
     }
 }
