@@ -550,6 +550,11 @@ div.logo{
     .profile-img img{
         margin: auto;
     }
+    .buttons > a.arrow{
+        display: block;
+        margin: 2.5rem auto;
+        width: 100px;
+    }
     .main{
         display: block;
         width: 100%;
@@ -587,6 +592,7 @@ div.logo{
     }
     .profile-img img{
         margin: auto;
+        justify-content: center;
     }
     .buttons > a.arrow{
         display: block;
@@ -621,11 +627,16 @@ div.logo{
     .welcome-caption, .cursor, .cursor2, .buttons{
         display: none;
     }
+    .buttons > a.arrow{
+        display: block;
+        margin: 2.5rem auto;
+        width: 100px;
+    }
     .main{
         display: block;
         width: 100%;
         max-width: 1300px;
-        min-height: 800px;
+        height: 100%;
     }
 
     span.welcome-title{
