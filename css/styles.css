@@ -591,15 +591,13 @@ div.logo{
     }
 }
 @media (max-width:320px){
-    .cursor, .cursor2{
+    .welcome-caption, .cursor, .cursor2, .buttons{
         display: none;
     }
     .main{
         display: block;
     }
-    .welcome-caption{
-        display: none;
-    }
+
     span.welcome-title{
         font-size: 1rem;
     }
@@ -608,10 +606,12 @@ div.logo{
     }
     .name-intro p{
         font-size: 2rem;
+        margin:auto;
+        /* text-align: center; */
     }
     .navigation{
         position: relative;
-        top: 18rem;
+        top: 15rem;
         height: auto;
         margin: auto;
     }
