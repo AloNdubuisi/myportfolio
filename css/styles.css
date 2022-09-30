@@ -39,7 +39,7 @@ div.logo{
 .text p{
     position: absolute;
     left: 3rem;
-    font-size: 3.5rem;
+    font-size: 3rem;
     width: 50%;
     top: 10rem;
     color: #fff;
@@ -74,6 +74,7 @@ div.logo{
     color: #ff7d00;
     font-size: 2rem;
     letter-spacing: 1.3;
+    margin-top: 3rem;
 }
 .name-intro p{
     letter-spacing: 1.8;
@@ -548,6 +549,29 @@ div.logo{
     }
     .main{
         display: block;
+    }
+    .welcome-caption{
+        display: none;
+    }
+    .welcome-intro {
+        width: 100%;
+    }
+    .name-intro p{
+        font-size: 2.8rem;
+    }
+    .navigation{
+        position: relative;
+        top: 18rem;
+        height: auto;
+        margin: auto;
+    }
+}
+@media (max-width:600px){
+    .cursor, .cursor2{
+        display: none;
+    }
+    .main{
+        display: block;
         margin: auto;
     }
     .welcome-caption{
@@ -558,6 +582,32 @@ div.logo{
     }
     .name-intro p{
         font-size: 2.8rem;
+    }
+    .navigation{
+        position: relative;
+        top: 18rem;
+        height: auto;
+        margin: auto;
+    }
+}
+@media (max-width:320px){
+    .cursor, .cursor2{
+        display: none;
+    }
+    .main{
+        display: block;
+    }
+    .welcome-caption{
+        display: none;
+    }
+    span.welcome-title{
+        font-size: 1rem;
+    }
+    .welcome-intro {
+        width: 100%;
+    }
+    .name-intro p{
+        font-size: 2rem;
     }
     .navigation{
         position: relative;
