@@ -596,6 +596,10 @@ div.logo{
     }
     .main{
         display: block;
+        margin: auto;
+        padding-bottom: 0;
+        margin-bottom: 0;
+        overflow-x: hidden;
     }
 
     span.welcome-title{
@@ -614,5 +618,6 @@ div.logo{
         top: 10rem;
         height: auto;
         justify-content: center;
+        width: 100%;
     }
 }
