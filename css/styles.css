@@ -581,13 +581,13 @@ div.logo{
         width: 100%;
     }
     .name-intro p{
-        font-size: 2.8rem;
+        font-size: 2rem;
     }
     .navigation{
         position: relative;
         top: 18rem;
         height: auto;
-        margin: auto;
+        margin: 0 0 0 3.25rem;
     }
 }
 @media (max-width:320px){
@@ -605,14 +605,14 @@ div.logo{
         width: 100%;
     }
     .name-intro p{
-        font-size: 2rem;
+        font-size: 1.2rem;
         margin:auto;
-        /* text-align: center; */
+        justify-content: center;
     }
     .navigation{
         position: relative;
-        top: 15rem;
+        top: 10rem;
         height: auto;
-        margin: auto;
+        justify-content: center;
     }
 }
