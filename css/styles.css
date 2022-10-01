@@ -619,6 +619,9 @@ div.logo{
     }
 }
 @media (max-width:320px){
+    body{
+        overflow-x: hidden;
+    }
     .welcome-caption, 
     .cursor, .cursor2, 
     .buttons{
@@ -630,6 +633,7 @@ div.logo{
         max-width: 1100px;
         min-height: 60%;
         padding-bottom: .5rem;
+        overflow: hidden;
     }
     span.welcome-title{
         font-size: 1.3rem;
@@ -651,5 +655,6 @@ div.logo{
         margin-left: 4.5rem;
         justify-content: center;
         align-items: center;
+        overflow: hidden;
     }
 } 
