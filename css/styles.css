@@ -601,7 +601,6 @@ div.logo{
         display: block;
         width: 100%;
         max-width: 1300px;
-        min-height: 800px;
     }
     .welcome-caption{
         display: none;
@@ -615,7 +614,12 @@ div.logo{
     .navigation{
         position: relative;
         top: 16rem;
-        height: auto;
+        width: 100%;
+        max-width: 1200px;
+        min-height: 900px;
+        margin-left: 4.8rem;
+        justify-content: center;
+        align-items: center;
     }
 }
 @media (max-width:320px){
@@ -644,9 +648,9 @@ div.logo{
     .navigation{
         position: relative;
         top: 10rem;
-        width: 90%;
-        max-width: 1000px;
-        min-height: 600px;
+        width: 100%;
+        max-width: 1200px;
+        min-height: 900px;
         margin-left: 4.8rem;
         justify-content: center;
         align-items: center;
