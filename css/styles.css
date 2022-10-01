@@ -648,10 +648,11 @@ div.logo{
         position: relative;
         top: 10rem;
         width: 90%;
-        min-width: 900px;
-        min-height: 1000px;
-        margin-left: 4.3rem;
+        max-width: 1250px;
+        min-height: 500px;
+        margin-left: 4.5rem;
         justify-content: center;
         align-items: center;
+        place-content: center;
     }
 } 
