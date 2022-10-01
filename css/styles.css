@@ -601,6 +601,7 @@ div.logo{
         display: block;
         width: 100%;
         max-width: 1300px;
+        min-height: 800px;
     }
     .welcome-caption{
         display: none;
@@ -614,12 +615,7 @@ div.logo{
     .navigation{
         position: relative;
         top: 16rem;
-        width: 100%;
-        max-width: 1200px;
-        min-height: 900px;
-        margin-left: 4.8rem;
-        justify-content: center;
-        align-items: center;
+        height: auto;
     }
 }
 @media (max-width:320px){
@@ -641,17 +637,17 @@ div.logo{
         width: 100%;
     }
     .name-intro p{
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         margin:auto;
         justify-content: center;
     }
     .navigation{
         position: relative;
         top: 10rem;
-        width: 100%;
-        max-width: 1200px;
-        min-height: 900px;
-        margin-left: 4.8rem;
+        width: 90%;
+        max-width: 1000px;
+        min-height: 500px;
+        margin-left: 4.5rem;
         justify-content: center;
         align-items: center;
     }
