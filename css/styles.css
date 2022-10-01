@@ -629,7 +629,7 @@ div.logo{
         width: 100%;
         max-width: 1100px;
         min-height: 60%;
-        padding-bottom: 3rem;
+        padding-bottom: .5rem;
     }
     span.welcome-title{
         font-size: 1.3rem;
