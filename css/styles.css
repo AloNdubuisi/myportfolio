@@ -637,7 +637,7 @@ div.logo{
         width: 100%;
     }
     .name-intro p{
-        font-size: 2rem;
+        font-size: 1.7rem;
         margin:auto;
         justify-content: center;
     }
@@ -645,9 +645,9 @@ div.logo{
         position: relative;
         top: 10rem;
         width: 90%;
-        max-width: 1050px;
+        max-width: 1000px;
         min-height: 600px;
-        margin-left: 4.9rem;
+        margin-left: 4.8rem;
         justify-content: center;
         align-items: center;
     }
