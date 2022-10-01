@@ -648,8 +648,8 @@ div.logo{
         position: relative;
         top: 10rem;
         width: 90%;
-        min-width: 1000px;
-        min-height: 500px;
+        min-width: 900px;
+        min-height: 1000px;
         margin-left: 4.3rem;
         justify-content: center;
         align-items: center;
