@@ -632,7 +632,6 @@ div.logo{
         width: 100%;
         max-width: 1100px;
         min-height: 60%;
-        padding-bottom: .5rem;
     }
     span.welcome-title{
         font-size: 1.3rem;
@@ -649,7 +648,7 @@ div.logo{
         position: relative;
         top: 10rem;
         width: 90%;
-        max-width: 1000px;
+        min-width: 1000px;
         min-height: 500px;
         margin-left: 4.5rem;
         justify-content: center;
