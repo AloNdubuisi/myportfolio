@@ -280,9 +280,7 @@ div.logo{
         background: #111;
         padding: 40px;
     }
-    .right-side > .navigation{
-        margin-top: 1.5rem;
-    }
+   
     .about-section, .welcome-section{
         margin: 20px 0 50px 0;
         color: #fff;
@@ -665,12 +663,12 @@ div.logo{
 }
 
 /* ==== MEDIA QUERRIES ==== */
-@media screen  and (max-width:1000px){
+@media (max-width:1000px){
     body{
         overflow-x: hidden;
     }
     .container{
-        margin: 10px;
+        margin: 5px;
         grid-template-columns: repeat(1, 1fr);
     }
     .profile-img img{
@@ -691,16 +689,15 @@ div.logo{
     }
     .navigation{
         position: relative;
-        top: 18rem;
-        height: auto;
-        margin: auto;
+        top: 2rem;
+        margin: auto 1.3rem auto 0;
     }
     .track{
         display: flex;
         flex-wrap: wrap;
     }
 }
-@media only screen and (max-width:767px){
+/* @media only screen and (max-width:767px){
     body{
         overflow-x: hidden;
     }
@@ -726,11 +723,14 @@ div.logo{
     .name-intro p{
         font-size: 3.5rem;
     }
-}
+} */
 
-@media only screen and (min-width:368px){
+@media (min-width:320px){
     .cursor, .cursor2{
         display: none;
+    }
+    span.Welcome-title h1{
+        font-size: 3rem;
     }
     .container .right-side {
         position: relative;
@@ -739,7 +739,7 @@ div.logo{
         margin-top: 0;
     }
     .name-intro p{
-        font-size: 3.2rem;
+        font-size: 2.2rem;
     }
     .logo a{
         width: 100%;
@@ -760,12 +760,28 @@ div.logo{
     .navigation .menu li a .icon{
         margin-top: .5rem;
     }
+    .container .left-side{
+        width: 100%;
+        padding: 40px;
+    }
+    .welcome-section span.text-quote{
+      font-size: .9rem;
+      font-family: 'Lato';
+      color: rgb(238, 222, 222);
+    }
+    .about-section, 
+    .welcome-section p{
+        font-size: 2.3rem;
+    }
     span.btn-chat,
     span.btn-download{
-        padding: .5rem;
-        font-size: .5rem;
+        padding: 1rem;
+        font-size: 1.2rem;
         border-radius: 8px;
         background-color: #753b04;
+    }
+    .button{
+        margin-top: 3rem;
     }
 }
 
