@@ -426,7 +426,6 @@ div.logo{
 .navigation .menu-toggle{
     position: relative;
     width: 60px;
-    /* height: 20px; */
     display: flex;
     align-items: center;
     width:100%;
@@ -496,6 +495,7 @@ div.logo{
 .navigation .menu{
     position: relative;
     width: 100%;
+    margin: auto;
     padding: 10px;
     transition: 0.5s;
     background-color: #02202e;
@@ -526,7 +526,7 @@ div.logo{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 .navigation .menu li a .text{
     position: relative;
@@ -535,7 +535,7 @@ div.logo{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 2.2rem;
+    font-size: 1rem;
 }
  /* ******* END RIGHT-SIDE STYLING ********** */
 
@@ -684,53 +684,104 @@ div.logo{
         border-radius: 5px;
         background: #b65b06;
     }
+    .navigation, .menu {
+        margin: auto;
+    }
     .name-intro p{
         font-size: 2rem;
     }
     .navigation{
         position: relative;
-        top: 2rem;
-        margin: auto 1.3rem auto 0;
+        margin: auto 1rem auto .5rem;
+    }
+    .navigation .menu {
+        padding: 1px
+    }
+    .navigation .menu li a .text {
+        position: relative;
+        height: 60px;
+        margin: auto 3px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
     }
     .track{
         display: flex;
         flex-wrap: wrap;
     }
 }
-/* @media only screen and (max-width:767px){
-    body{
-        overflow-x: hidden;
-    }
-    .about-section .box{
-        flex-direction: column;
-    }
-    .about-section .box .company-year{
-        margin-bottom: 5px;
-    }
-    .text-title p{
-        font-size: 2rem;
-    }
-    .profile-img img{
-        margin: auto;
-        justify-content: center;
-    }
-    .welcome-caption{
+@media (max-width:800px){
+    .cursor, .cursor2{
         display: none;
     }
-    .welcome-intro {
-        width: 100%;
+    .navigation, .menu {
+        margin: auto;
     }
-    .name-intro p{
+    .navigation .menu li a .text {
+        position: relative;
+        height: 60px;
+        margin: auto 3px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+    }
+    span.Welcome-title h1 {
         font-size: 3.5rem;
     }
-} */
+    .about-section, 
+    .welcome-section p{
+        font-size: 2.5rem;
+    }
+    .navigation .menu {
+        padding: 0;
+    }
+    .button{
+        margin-top: 3rem;
+    }
+}
+@media (max-width:500px){
+    .cursor, .cursor2{
+        display: none;
+    }
+    .welcome-section span.text-quote {
+        font-size: 1.3rem;
+    }
+    span.Welcome-title h1 {
+        font-size: 3rem;
+    }
+    .navigation .menu li a .text {
+        position: relative;
+        height: 60px;
+        margin: auto 3px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+    }
+    .navigation, .menu {
+        margin: auto;
+    }
+    .navigation {
+        top: 1rem;
+    }
+    span.btn-chat, 
+    span.btn-download {
+        padding: 0.3rem;
+        font-size: 1.5rem;
+    }
+    .button{
+        margin-top: 3rem;
+    }
+}
 
-@media (min-width:320px){
+@media (max-width:320px){
     .cursor, .cursor2{
         display: none;
     }
     span.Welcome-title h1{
-        font-size: 3rem;
+        font-size: 2.65rem;
     }
     .container .right-side {
         position: relative;
@@ -765,18 +816,18 @@ div.logo{
         padding: 40px;
     }
     .welcome-section span.text-quote{
-      font-size: .9rem;
+      font-size: .96rem;
       font-family: 'Lato';
       color: rgb(238, 222, 222);
     }
     .about-section, 
     .welcome-section p{
-        font-size: 2.3rem;
+        font-size: 2.2rem;
     }
     span.btn-chat,
     span.btn-download{
-        padding: 1rem;
-        font-size: 1.2rem;
+        padding: .4rem;
+        font-size: 1.4rem;
         border-radius: 8px;
         background-color: #753b04;
     }
