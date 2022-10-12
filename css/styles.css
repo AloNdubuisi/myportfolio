@@ -776,7 +776,7 @@ div.logo{
     }
 }
 
-@media (max-width:320px){
+@media (min-width:320px){
     .cursor, .cursor2{
         display: none;
     }
@@ -816,7 +816,7 @@ div.logo{
         padding: 40px;
     }
     .welcome-section span.text-quote{
-      font-size: .96rem;
+      font-size: .89rem;
       font-family: 'Lato';
       color: rgb(238, 222, 222);
     }
@@ -826,8 +826,8 @@ div.logo{
     }
     span.btn-chat,
     span.btn-download{
-        padding: .4rem;
-        font-size: 1.4rem;
+        padding: .3rem;
+        font-size: 1.2rem;
         border-radius: 8px;
         background-color: #753b04;
     }
