@@ -655,16 +655,18 @@ html{
         min-height: 100vh;
     }
     .card .content .details{
-        margin-top: 3rem;
+        margin-top: 5rem;
+        height: auto;
+        width: 100%;
         background: rgb(3, 26, 17);
     }
     .card .content .details h1{
         font-size: 1.85rem;
-        margin-right: 5.3rem;
+        margin-right: 2.5rem;
     }
     .card .content .details span{
-        font-size: 1rem;
-        margin-right: 3.5rem;
+        font-size: 0.83rem;
+        margin-right: 3rem;
     }
 }
 
