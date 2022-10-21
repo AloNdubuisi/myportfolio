@@ -654,6 +654,10 @@ html{
         max-width: 100vw;
         min-height: 100vh;
     }
+    .card .content .details{
+        margin-top: 3rem;
+        background: rgb(3, 26, 17);
+    }
     .card .content .details h1{
         font-size: 1.85rem;
         margin-right: 5.3rem;
