@@ -610,7 +610,7 @@ html{
     }
 }
 
-@media (min-width:320px) and (max-width:480px){
+@media (min-width:300px) and (max-width:480px){
     .cursor, .cursor2{
         display: none;
     }
@@ -650,15 +650,18 @@ html{
     .button{
         margin-top: 3rem;
     }
+    .main-section {
+        background: rgb(3, 26, 17);
+        height: fit-content;
+    }
     .card .content{
         max-width: 100vw;
         min-height: 100vh;
     }
     .card .content .details{
-        margin-top: 5rem;
+        margin-top: 13rem;
         height: auto;
         width: 100%;
-        background: red;
     }
     .card .content .details h1{
         font-size: 1.85rem;
