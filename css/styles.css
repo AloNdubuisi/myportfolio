@@ -583,7 +583,6 @@ html{
         border-radius: 5px;
         background: #b65b06;
     }
-   
 }
 @media (max-width:800px){
     .cursor, .cursor2{
@@ -611,7 +610,7 @@ html{
     }
 }
 
-@media (min-width:320px){
+@media (min-width:320px) and (max-width:480px){
     .cursor, .cursor2{
         display: none;
     }
@@ -650,6 +649,18 @@ html{
     }
     .button{
         margin-top: 3rem;
+    }
+    .card .content{
+        max-width: 100vw;
+        min-height: 100vh;
+    }
+    .card .content .details h1{
+        font-size: 1.85rem;
+        margin-right: 5.3rem;
+    }
+    .card .content .details span{
+        font-size: 1rem;
+        margin-right: 3.5rem;
     }
 }
 
