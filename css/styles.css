@@ -658,7 +658,7 @@ html{
         margin-top: 5rem;
         height: auto;
         width: 100%;
-        background: rgb(3, 26, 17);
+        background: red;
     }
     .card .content .details h1{
         font-size: 1.85rem;
