@@ -14,6 +14,10 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    background: #eee;
+}
+
 /* ===== POINTER EFFECT STYLING ===== */
 .cursor {
     position: fixed;
@@ -43,6 +47,7 @@ html {
     transform: translate(-50%, -50%);
     transition: .1s ease
 }
+
 /* =====/ POINTER EFFECT STYLING ===== */
 
 
@@ -52,21 +57,19 @@ html {
     width: 100%;
     max-width: 1600px;
     height: 600px;
-    background: #ddd;
     margin: auto 50px;
     display: grid;
     grid-template-columns: 1fr 2fr;
     box-shadow: 0.35px 44px rgba(0, 0, 0, 0, 0.1);
 }
-#main-section{
+
+#main-section {
     position: relative;
     width: 100%;
     height: 100vh;
-    background: #ddd;
     display: grid;
     grid-template-columns: 3fr 4fr;
     box-shadow: 0.35px 44px rgba(0, 0, 0, 0, 0.1);
-    /* background: #013046; */
 }
 
 /* ******* LEFT-SIDE STYLING ********** */
@@ -113,12 +116,13 @@ html {
     font-family: 'Poppins' sans-serif;
 }
 
-.profile-text h2 span {
-    font-size: 2rem;
+.profile-text span {
+    font-size: 1.6rem;
     font-weight: 900;
+    color: #eee;
 }
 
-.contact-info {
+.contact-info{
     padding-top: 40px;
 }
 
@@ -197,7 +201,7 @@ span.btn-chat,
 span.btn-download {
     padding: 1rem .7rem;
     border-radius: 8px;
-    background-color: #753b04;
+    background-color: #02202e;
 }
 
 span.btn-chat a,
@@ -210,13 +214,26 @@ span.btn-chat {
 }
 
 span.btn-download {
-    background: transparent;
-    border: 3px solid #753b04;
+    border: 3px solid #02202e;
 }
 
 span.btn-download:hover {
-    background: #753b04;
+    background: transparent;
     transition: .5s ease-in;
+}
+.container .left-side .action-btn{
+    padding: 30px;
+}
+.container .left-side .action-btn a button{
+    width: 170px;
+    height: 60px;
+    font-size: 1.8rem;
+    border-radius: 6px;
+    background: #dde3e6;
+    cursor: pointer;
+}
+.container .left-side .action-btn a button.cv-btn{
+    width: 250px;
 }
 
 /* ****** END LEFT-SIDE STYLING **********  */
@@ -225,17 +242,18 @@ span.btn-download:hover {
 /* ******* RIGHT-SIDE STYLING ********** */
 .container .right-side {
     position: relative;
-    background: #02202e;
+    background: #eee;
+    color: #000;
     padding: 40px;
     border-left: rgb(102, 101, 101) solid 2px;
 }
 
 .about-section {
     margin: 20px 0 50px 0;
-    color: #fff;
+    color: #000;
 }
 
-.about-section{
+.about-section {
     width: 100%;
     font-size: 3rem;
     margin-bottom: 1.5rem;
@@ -254,7 +272,7 @@ h2.about-title {
     margin-bottom: 30px;
     line-height: 1.5;
     font-size: 2.5rem;
-    color: #fff;
+    color: #02202e;
 }
 
 .about-section .about-details {
@@ -279,7 +297,6 @@ h2.about-title {
 
 .about-section .box .company-year h5 {
     text-transform: uppercase;
-    color: #fff;
     font-size: .87rem;
     margin-right: 10px;
     font-weight: 600;
@@ -304,13 +321,13 @@ h2.about-title {
 }
 
 .about-section .box .text-title h5 {
-    color: #ddd;
+    color: #02202e;;
     font-size: 2rem;
     text-transform: uppercase;
 }
 
 .about-section .box .text-title p {
-    color: rgb(250, 243, 243);
+    color: #02202e;
     font-size: 1.5rem;
     font-family: 'Poppins' sans-serif;
     line-height: 1.2;
@@ -329,7 +346,7 @@ h2.about-title {
     margin-bottom: 5px;
     line-height: 1.5;
     font-size: 2.5rem;
-    color: #fff;
+    color: #000
 }
 
 .skills>h4.about-title {
@@ -350,7 +367,7 @@ h2.about-title {
 }
 
 .techs .box h4 {
-    border: 1px solid #b65b06;
+    border: 1px solid #02202e;
     text-align: center;
     padding: 10px 0;
     width: 210px;
@@ -360,7 +377,7 @@ h2.about-title {
 .techs .box h4:hover {
     border: none;
     text-align: center;
-    background: #b65b06;
+    background: #02202e;
     color: rgb(248, 241, 241);
     transition: all .6s ease-in;
 }
@@ -430,15 +447,16 @@ h2.about-title {
 }
 
 /* ===== PROJECTS GALLERY STYLING ======= */
-.text-quote p{
-    color: #eee;
+.text-quote p {
+    color: #02202e;
     font-size: 2.3rem;
 }
-.text-quote span{
+
+.text-quote span {
     color: #ff7d00;
-    padding-left: 8rem;
     font-size: 1.5rem;
 }
+
 .slider-wrapper {
     position: relative;
     width: 90%;
@@ -523,11 +541,8 @@ h2.about-title {
         overflow-x: hidden;
     }
 
-    .card .content .details h1 {
-        color: red;
-    }
-
-    .container, #main-section {
+    .container,
+    #main-section {
         margin: 5px;
         grid-template-columns: repeat(1, 1fr);
     }
@@ -549,6 +564,12 @@ h2.about-title {
 
     .content {
         display: none;
+    }
+    .container .left-side .action-btn a button{
+        width: 250px;
+    }
+    .container .left-side .action-btn a button.cv-btn{
+        margin-top: .5rem;
     }
 }
 
@@ -595,7 +616,7 @@ h2.about-title {
 
     .container .right-side {
         position: relative;
-        background: #111;
+        background: #ccc6c6;
         padding-top: 0;
         margin-top: 0;
     }
@@ -613,9 +634,7 @@ h2.about-title {
         width: 100%;
         padding: 40px;
     }
-
-    .about-section,
-    .welcome-section p {
+    .about-section {
         font-size: 2.2rem;
     }
 
@@ -630,10 +649,12 @@ h2.about-title {
     .button {
         margin-top: 3rem;
     }
-    .text-quote span{
+
+    .text-quote span {
         font-size: 18px !important;
         text-align: center;
     }
+
     .profile-text h2 {
 
         font-size: 1.8rem;
