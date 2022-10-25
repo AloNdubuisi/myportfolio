@@ -221,7 +221,8 @@ span.btn-download:hover {
     background: transparent;
     transition: .5s ease-in;
 }
-.container .left-side .action-btn{
+.container .left-side .action-btn,
+.container .left-side .social-icons{
     padding: 30px;
 }
 .container .left-side .action-btn a button{
@@ -234,6 +235,14 @@ span.btn-download:hover {
 }
 .container .left-side .action-btn a button.cv-btn{
     width: 250px;
+}
+.container .left-side .social-icons{
+    text-align: center;
+}
+.container .left-side .social-icons a i{
+    color: #ccc6c6;
+    font-size: 3rem;
+    padding: .5rem;
 }
 
 /* ****** END LEFT-SIDE STYLING **********  */
@@ -565,11 +574,16 @@ h2.about-title {
     .content {
         display: none;
     }
-    .container .left-side .action-btn a button{
+    .container .left-side .action-btn a button,
+    .container .left-side .action-btn a .social-icons{
         width: 250px;
     }
     .container .left-side .action-btn a button.cv-btn{
         margin-top: .5rem;
+    }
+    .container .left-side .action-btn,
+    .container .left-side .social-icons{
+        text-align: center;
     }
 }
 
@@ -607,7 +621,7 @@ h2.about-title {
     }
 }
 
-@media (max-width:320px) {
+@media (min-width:20px) and (max-width:480px) {
 
     .cursor,
     .cursor2 {
@@ -656,7 +670,13 @@ h2.about-title {
     }
 
     .profile-text h2 {
-
         font-size: 1.8rem;
+    }
+    .container .left-side .social-icons{
+        margin-top: 0;
+        padding-top: 0;
+    }
+    .container .left-side .social-icons a i{
+        font-size: 2rem;
     }
 }
