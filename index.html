@@ -1,71 +1,111 @@
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>photography web project</title>
+    <!-- SWIPPER JS CDN CSS LINK-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <!-- GOOGLE FONTS LINK (MONTSERAT) -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- ICONSCOUT CDN -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <!-- CUSTOM CSS STYLE-->
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <!-- =========== NAV SECTION ================ -->
+    <nav>
+      <div class="container nav-container">
+        <a href="./index.html" class="nav-logo">ALUMY<span>TECH.</span></a>
+        <ul class="nav-links">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./projects.html">Projects</a></li>
+          <li><a href="#Blog">Blog</a></li>
+        </ul>
+        <ul class="nav-socials">
+          <li>
+            <a href="https://instagram.com" target="_blank"
+              ><i class="uil uil-instagram-alt"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://instagram.com" target="_blank"
+              ><i class="uil uil-twitter"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://instagram.com" target="_blank"
+              ><i class="uil uil-youtube"></i
+            ></a>
+          </li>
+          <a href="https://instagram.com" target="_blank"
+            ><i class="uil uil-git-hub"></i
+          ></a>
+        </ul>
+        <button class="nav-toggle-btn" id="nav-toggle-open">
+          <i class="uil uil-bars"></i>
+        </button>
+        <button class="nav-toggle-btn" id="nav-toggle-close">
+          <i class="uil uil-multiply"></i>
+        </button>
+      </div>
+    </nav>
+    <!-- =========== /NAV SECTION ================ -->
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio | About page</title>
-    <!-- FONTAWESOME CDN LINK -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
-    <!-- ANIMATED CSS CDN LINK -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <!-- CUSTOM CSS LINK -->
-    <link rel="stylesheet" href="./css/styles.css">
-
-</head>
-
-<body>
-    
+    <!-- =========== HEADER SECTION ================ -->
     <header>
-        <div id="header-section">
-            <div class="logo"><a href="#">A<span>N.</span></a></div>
+      <div class="container header-container">
+        <div class="header-left">
+          <div class="header-image bg"></div>
+          <div class="header-image-lg">
+            <img src="./assets/profile-images/alooo.PNG" alt="Header image" />
+          </div>
+          <div class="header-image-sm">
+            <img src="./assets/profile-images/alooo.PNG" alt="Header image" />
+          </div>
         </div>
-    </header>
-
-    <main>
-        <div class="container" id="main-section">
-            <div class="left-side">
-                <div class="profile-text">
-                    <div class="profile-img">
-                        <img src="./assets/profile-images/alooo.PNG" alt="">
-                    </div>
-                    <h2>Alo Ndubuisi<br></h2>
-                    <span>Instructor | Software Engineer | Web developer</span>
-                </div>
-
-                <div class="action-btn">
-                    <a href="https://wa.me/2348158573822">
-                        <button class="char-btn">chat me</button>
-                    </a>
-                    <a href="./assets/Alo_Resume.pdf">
-                        <button class="cv-btn">Download My CV</button>
-                    </a>
-                </div>
-
-                <div class="social-icons">
-                    <a href="https://wa.me/2348158573822">
-                        <i class="fa-brands fa-square-facebook"></i>
-                    </a>
-                    <a href="./assets/Alo_Resume.pdf">
-                        <i class="fa-brands fa-twitter"></i>
-                    </a>
-                    <a href="./assets/Alo_Resume.pdf">
-                        <i class="fa-brands fa-linkedin"></i>
-                    </a>
-                    <a href="./assets/Alo_Resume.pdf">
-                        <i class="fa-brands fa-github"></i>
-                    </a>
-                    <a href="./assets/Alo_Resume.pdf">
-                        <i class="fa-brands fa-instagram"></i>
-                    </a>
-                </div>
+        <div class="header-right">
+          <div class="header-head">
+            <div class="empty header-empty"></div>
+            <a href="" class="header-tag"
+              >#Simplicity is the Prerequisite for Reliability<br />
+              “ Analyze The New Ideas, Solve it. then Write the Code ”
+            </a>
+          </div>
+          <h1 class="title">HI, I'M ALO NDUBUISI</h1>
+          <p>
+            BS.c Computer Science | Software Engineer | Instructor | Full-stack
+            Web Developer.
+          </p>
+          <div class="action-btn">
+            <div>
+              <a href="mailto:alo.ndubuisi@gmail.com" class="header-btn-md"
+                >Let's Talk Business</a
+              >
             </div>
-        </div>    
-    </main>
+            <div>
+              <a href="mailto:alo.ndubuisi@gmail.com" class="header-btn-md"
+                >Download my CV</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- =========== /HEADER SECTION ================ -->
 
-
-        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-        <script src="./js/main.js"></script>
-</body>
+    <script src="./js/main.js"></script>
+  </body>
 </html>
