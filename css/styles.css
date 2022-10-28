@@ -79,7 +79,7 @@
   
   nav {
     height: 5rem;
-    width: 100vw;
+    width: 100%;
     display: grid;
     place-items: center;
     position: fixed;
@@ -210,11 +210,11 @@
   .header-right p,
   .title {
     margin-top: 0.2rem;
-    width: 85%;
+    width: 100%;
   }
   .action-btn{
       margin-top: 2rem;
-      padding: 0.6rem 1.6rem;
+      /* padding: 0.6rem 1.6rem; */
       font-weight: 600;
       border-radius: 0.3rem;
       display: flex;
@@ -893,7 +893,8 @@ h2.about-title {
   @media screen and (max-width: 600px) {
     h1,
     h2 {
-      font-size: 2rem;
+      font-size: 1.5rem;
+      font-weight: bolder;
       line-height: 1.3;
       color: var(--color-white);
     }
@@ -931,7 +932,7 @@ h2.about-title {
           display: block;
       }
       .header-btn-md{
-          width: 20rem;
+          width: 18rem;
           font-size: 1.5rem;
       }
   }
@@ -972,22 +973,9 @@ h2.about-title {
         margin: 5px;
         grid-template-columns: repeat(1, 1fr);
     }
-
     .profile-img img {
         margin: auto;
     }
-
-    a.arrow {
-        display: block;
-        margin: auto;
-        width: 100px;
-        font-size: 2rem;
-        text-align: center;
-        color: #eee;
-        border-radius: 5px;
-        background: #b65b06;
-    }
-
     .content {
         display: none;
     }
