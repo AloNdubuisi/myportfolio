@@ -7,101 +7,170 @@
     <title>Myportfolio | Projects</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
      <!-- ANIMATED CSS CDN LINK -->
+     <!-- ICONSCOUT CDN -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"/>
+    <!-- css animate library link -->
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <!-- ===== CUSTOM CSS LINK ========== -->
     <link rel="stylesheet" href="./css/styles.css">
 </head>
-<body style="background-color: #ddd;">
-    <div class="logo" style="background-color: #000;"><a href="#">A<span>N.</span></a></div>
+<body>
+    <nav style="background: #003347;">
+        <div class="container nav-container">
+          <a href="./index.html" class="nav-logo">ALUMY<span>TECH.</span></a>
+          <ul class="nav-links">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./projects.html">Projects</a></li>
+            <li><a href="#Blog">Blog</a></li>
+          </ul>
+          <ul class="nav-socials">
+            <li>
+              <a href="https://instagram.com" target="_blank"
+                ><i class="uil uil-instagram-alt"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://instagram.com" target="_blank"
+                ><i class="uil uil-twitter"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://instagram.com" target="_blank"
+                ><i class="uil uil-youtube"></i
+              ></a>
+            </li>
+            <a href="https://instagram.com" target="_blank"
+              ><i class="uil uil-git-hub"></i
+            ></a>
+          </ul>
+          <button class="nav-toggle-btn" id="nav-toggle-open">
+            <i class="uil uil-bars"></i>
+          </button>
+          <button class="nav-toggle-btn" id="nav-toggle-close">
+            <i class="uil uil-multiply"></i>
+          </button>
+        </div>
+      </nav>
+      <!-- =========== /NAV SECTION ================ -->
 
-    <div class="text project-text">
-        <p class=" animate__animated animate__backInDown" style="color: #02202e;">
-            &ldquo;Analyze The New Ideas, Solve it. then Write the Code&rdquo;
-        </p>
-        <span class="quote" style="font-size: 1.5rem; font-weight:700">&rarr; Simplicity is the Prerequisite for Reliability</span>
-    </div>
- 
     <!-- ******** PROJECT IMAGES ********** -->
-    
-    <h2>**</h2>
-    <div class="slider-wrapper project-body animate__animated animate__bounceInLeft">
-        <div class="slider-track">
-            <div class="img-slide animate__animated animate__bounceInLeft" target="_blank">
-                <a href="https://alondubuisi.github.io/choice-prediction-game/">
-                    <img src="./assets/projects-images/choice-prediction-game.PNG" alt="game project">
-                </a>
-                <h5>Lorem ipsum dolor sit.</h5>
+    <div id="img-container">
+        <div class="img-bx">
+            <img src="./assets/projects-images/disqussion.PNG" alt="" class="project-img">
+            <div class="project-title">
+                <p>
+                   Disqusion Materials.
+                </p>
             </div>
-            <div class=" img-slide animate__animated animate__bounceInLeft">
-                <a href="https://alondubuisi.github.io/digital_marketing_showcase/" target="_blank">
-                    <img src="./assets/projects-images/digital-marketing-showcase.PNG" alt="digital marketing showcase">
-                </a>
+            <div class="project-caption">
+                <div class="project-desc">
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam, laboriosam.
+                    </p>
+                </div>
+                <div class="project-link">
+                    <a href="https://materials.disqussion.com">check this project</a>
+                </div>
             </div>
-            <div class="img-slide animate__animated animate__bounceInLeft">
-                <a href="https://materials.disqussion.com/" target="_blank">
-                    <img src="./assets/projects-images/disqussion.PNG" alt="disqussion project">
-                </a>
+        </div>
+
+        <div class="img-bx">
+            <img src="./assets/projects-images/photography.PNG" alt="" class="project-img">
+            <div class="project-title">
+                <p>
+                    Photography Showcasing Page.
+                </p>
             </div>
-            <div class="img-slide">
-                <a href="https://alondubuisi.github.io/html-css-js-project/"target="_blank">
-                    <img src="./assets/projects-images/html-css-js-project.PNG" alt="html css and js project">
-                </a>
+            <div class="project-caption">
+                <div class="project-desc">
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam, laboriosam.
+                    </p>
+                </div>
+                <div class="project-link">
+                    <a href="https://alondubuisi.github.io/photography-full-landing-page/">check this project</a>
+                </div>
             </div>
-            <div class="img-slide animate__animated animate__bounceInRight">
-                <a href="https://alondubuisi.github.io/photography-full-landing-page/" target="_blank">
-                    <img src="./assets/projects-images/photography.PNG" alt="game project">
-                </a>
+        </div>
+
+        <div class="img-bx">
+            <img src="./assets/projects-images/sabi.PNG" alt="" class="project-img">
+            <div class="project-title">
+                <p>
+                    Sabi Programmers.
+                </p>
             </div>
-            <div class="img-slide animate__animated animate__bounceInRight">
-                <a href="https://sabiprogrammers.com" target="_blank" target="_blank">
-                    <img src="./assets/projects-images/sabi.PNG" alt="sabi project">
-                </a>
+            <div class="project-caption">
+                <div class="project-desc">
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam, laboriosam.
+                    </p>
+                </div>
+                <div class="project-link">
+                    <a href="https://sabiprogrammers.com">check this project</a>
+                </div>
             </div>
-            <div class="img-slide animate__animated animate__bounceInRight">
-                <a href="https://scam-alert-ng.netlify.app/" target="_blank">
-                    <img src="./assets/projects-images/scam-alert.PNG" alt="scam-alert project"> 
-                </a>           
+        </div>
+
+        <div class="img-bx">
+            <img src="./assets/projects-images/scam-alert.PNG" alt="" class="project-img">
+            <div class="project-title">
+                <p>
+                    Scam Alert System.
+                </p>
             </div>
-            <div class="img-slide animate__animated animate__bounceInLeft" target="_blank">
-                <a href="https://alondubuisi.github.io/choice-prediction-game/">
-                    <img src="./assets/projects-images/choice-prediction-game.PNG" alt="game project">
-                </a>
+            <div class="project-caption">
+                <div class="project-desc">
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam, laboriosam.
+                    </p>
+                </div>
+                <div class="project-link">
+                    <a href="https://scam-alert-ng.netlify.app/">check this project</a>
+                </div>
             </div>
-            <div class=" img-slide animate__animated animate__bounceInLeft">
-                <a href="https://alondubuisi.github.io/digital_marketing_showcase/" target="_blank">
-                    <img src="./assets/projects-images/digital-marketing-showcase.PNG" alt="digital marketing showcase">
-                </a>
+        </div>
+
+        <div class="img-bx">
+            <img src="./assets/projects-images/digital-marketing-showcase.PNG" alt="" class="project-img">
+            <div class="project-title">
+                <p>
+                    Digital Digital-Marketing-Showcase
+                </p>
             </div>
-            <div class="img-slide animate__animated animate__bounceInLeft">
-                <a href="https://materials.disqussion.com/" target="_blank">
-                    <img src="./assets/projects-images/disqussion.PNG" alt="disqussion project">
-                </a>
+            <div class="project-caption">
+                <div class="project-desc">
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam, laboriosam.
+                    </p>
+                </div>
+                <div class="project-link">
+                    <a href="https://alondubuisi.github.io/digital_marketing_showcase/">check this project</a>
+                </div>
             </div>
-            <div class="img-slide">
-                <a href="https://alondubuisi.github.io/html-css-js-project/"target="_blank">
-                    <img src="./assets/projects-images/html-css-js-project.PNG" alt="html css and js project">
-                </a>
+        </div>
+
+        <div class="img-bx">
+            <img src="./assets/projects-images/html-css-js-project.PNG" alt="" class="project-img">
+            <div class="project-title">
+                <p>
+                    Choice Game Project
+                </p>
             </div>
-            <div class="img-slide animate__animated animate__bounceInRight">
-                <a href="https://alondubuisi.github.io/photography-full-landing-page/" target="_blank">
-                    <img src="./assets/projects-images/photography.PNG" alt="game project">
-                </a>
-            </div>
-            <div class="img-slide animate__animated animate__bounceInRight">
-                <a href="https://sabiprogrammers.com" target="_blank" target="_blank">
-                    <img src="./assets/projects-images/sabi.PNG" alt="sabi project">
-                </a>
-            </div>
-            <div class="img-slide animate__animated animate__bounceInRight">
-                <a href="https://www.figma.com/file/OM0ohuxuAh8RKKjfCwJuLw/Scam-Alert?node-id=60%3A562" target="_blank">
-                    <img src="./assets/projects-images/scam-alert.PNG" alt="scam-alert project"> 
-                </a>           
+            <div class="project-caption">
+                <div class="project-desc">
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam, laboriosam.
+                    </p>
+                </div>
+                <div class="project-link">
+                    <a href="https://alondubuisi.github.io/html-css-js-project/">check this project</a>
+                </div>
             </div>
         </div>
     </div>
-    <a href="./index.html" class="arrow">
-        <span><ion-icon name="arrow-back-outline">Go Back</ion-icon></span>
-    </a>
+    
      <!-- ******** /PROJECT IMAGES ********** -->
 
 
