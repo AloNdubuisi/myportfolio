@@ -872,10 +872,6 @@ h2.about-title {
       text-align: center;
   }
   /* PROJECTS STYLING FOR RESPONSIVENESS */
-  #img-container{
-    display: grid;
-    grid-template-columns: 1fr;
-  }
   .img-bx{
     box-shadow: 0 0 5px #02202e;
   }
@@ -920,10 +916,18 @@ h2.about-title {
     .contact-info.education h4,
     .about-section .box .text-title p {
       font-size: 2.3rem;
-  }
+    }
+    #img-container{
+      display: grid;
+      grid-template-columns: 1fr;
+    }
   }
   
   @media screen and (min-width: 320px) and (max-width: 599px){
+    #img-container{
+      display: grid;
+      grid-template-columns: 1fr;
+    }
       .action-btn{
           display: block;
       }
@@ -934,7 +938,11 @@ h2.about-title {
       .contact-info.education h5,
       .contact-info.education h4,
       .about-section .box .text-title p {
-        font-size: 2.3rem;
+        font-size: 1.6rem;
+    }
+    ul > li > h5, .text-title > h5,
+    .text-title > h4{
+      font-size: 2rem;
     }
   }
   
